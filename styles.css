@@ -253,6 +253,9 @@ body{
   font-family: var(--ff-body);
   background-color: hsl(275, 100%, 97%);
 }
+button:hover{
+  background-image: linear-gradient(var(--clr-primary-400), var(--clr-primary-300));
+}
 tbody{
   display: flex;
   flex-direction: column;
