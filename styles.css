@@ -325,7 +325,7 @@ tr{
   position: relative;
   left: 18rem;
   padding-left: 4em;
-  border-radius: 0px 1em 1em 0
+  border-radius: 0px 1em 1em 0;
 }
 .value{
   margin-left: auto;
@@ -342,9 +342,6 @@ tr{
     display: flex;
     flex-direction: column;
   }
-  .nameIcon{
-    padding-right: 2em;
-  }
   .percentile p{
     width: 29ch;
     max-width: 84%;
@@ -357,8 +354,14 @@ tr{
     width: 100vw;
     border-radius: 0 0 2em 2em;
   }
+  .score h1{
+    padding-top: .55em;
+  }
   .summary{
-    margin-inline: auto;
-    width: 80%;
+    align-self: center;
+    min-width: 55vw;
+  }
+  .summary > *{
+    flex: 1;
   }
 }
