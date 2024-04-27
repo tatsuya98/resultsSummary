@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="results | bg-gradient-400 text-neutral-400 pd-all-500">
+        <h3 class="| fw-semi-bold fs-500">Your Result</h3>
+        <div class="score | bg-gradient-400-circle">
+          <h1 class="fs-800 fw-bold text-neutral-100">76</h1>
+          <p>of 100</p>
+        </div>
+        <div class="percentile |">
+          <h2 class="| fs-500 fw-semi-bold text-neutral-100">Great</h2>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="summary pd-all-500 bg-primary-100">
+        <h3 class="| fw-semi-bold fs-500 text-neutral-500">Summary</h3>
+        <table>
+          <tr class="| bg-reaction">
+            <td>
+              <div class="nameIcon |">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="Reaction icon"
+                />
+                <p class="| text-reaction fw-semi-bold">Reaction</p>
+              </div>
+            </td>
+            <td class="value | text-neutral-500-op fw-bold">
+              <strong class="text-neutral-500 fw-bold">80</strong> / 100
+            </td>
+          </tr>
+          <tr class="Memory | bg-memory">
+            <td>
+              <div class="nameIcon |">
+                <img src="./assets/images/icon-memory.svg" alt="Memory icon" />
+                <p class="text-memory fw-semi-bold">Memory</p>
+              </div>
+            </td>
+            <td class="value text-neutral-500-op fw-bold">
+              <strong class="text-neutral-500">92</strong> / 100
+            </td>
+          </tr>
+          <tr class="Verbal | bg-verbal">
+            <td>
+              <div class="nameIcon |">
+                <img src="./assets/images/icon-verbal.svg" alt="Verbal icon" />
+                <p class="text-verbal fw-semi-bold">Verbal</p>
+              </div>
+            </td>
+            <td class="value | text-neutral-500-op fw-bold">
+              <strong class="text-neutral-500 fw-bold">61</strong> / 100
+            </td>
+          </tr>
+          <tr class="Visual | bg-visual">
+            <td>
+              <div class="nameIcon">
+                <img src="./assets/images/icon-visual.svg" alt="Visual icon" />
+                <p class="text-visual fw-semi-bold">Visual</p>
+              </div>
+            </td>
+            <td class="value | text-neutral-500-op fw-bold">
+              <strong class="text-neutral-500 fw-bold">72</strong> / 100
+            </td>
+          </tr>
+        </table>
+        <button class="button | bg-primary-500 text-neutral-100">
+          continue
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
