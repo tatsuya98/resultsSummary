@@ -361,7 +361,5 @@ tr{
     align-self: center;
     min-width: 55vw;
   }
-  .summary > *{
-    flex: 1;
-  }
+
 }
